@@ -3,7 +3,7 @@ import HeaderItem from "../../atoms/headerItem/HeaderItem"
 
 const MainPlayerHeader = () => {
   return (
-    <div className='w-full h-16 flex flex-row gap-6 items-center justify-start'>
+    <div className='w-full h-16 flex flex-row gap-6 items-center justify-start z-50'>
         <HeaderItem text="All"
             classs="w-16 flex items-center justify-center rounded-3xl bg-white py-1 cursor-pointer" 
             onClick={()=>{console.log("All")}}
